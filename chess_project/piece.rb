@@ -14,7 +14,7 @@ class Piece
   end
 
   def to_s
-    "this is #{self.name} and it's color is #{self.color} it's position is #{self.pos}"
+    raise StantardError
     # come back
   end
 

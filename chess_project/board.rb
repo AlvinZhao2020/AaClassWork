@@ -90,14 +90,14 @@ class Board
 end
 
 b = Board.new
-b.print_board
 
 
+
 b.print_board
-# debugger
+
 # p b[[0,2]].move #knight
 # p b[[0,3]].move #king
-# p b[[0,0]].move#rook
+p b[[0,0]].move#rook
 # p b[[0,1]].move #bishop
 # p b[[0,4]].move #queen
 
